@@ -1,0 +1,90 @@
+@font-face {
+ font-family: "MainRoboto";
+ src: url('Fonts/Roboto-Medium.ttf');
+}
+
+
+
+button:hover{
+ background-color: rgba(0, 136, 169, 0.8);
+}
+
+body {
+ background-color: #fff;
+}
+
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+li, a, button {
+ font-family: "MainRoboto";
+ font-weight: 400;
+ font-size: 16px;
+ color: #38434f;
+ text-decoration: none;
+}
+
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 30px 10;
+ background-color: rgba(0, 0, 0, 0.0);
+ height: auto;
+ border-bottom:#cecece 3px solid;
+ box-shadow: 0 0 4px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+ cursor: pointer;
+ width: 20vh;
+ height: auto;
+ margin: auto;
+ padding: 5px;
+}
+
+nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #cfcfcf;
+ height: auto;
+ padding: 5px;
+ box-shadow: 0 0 4px 4px rgba(0,0,0,0.1);
+}
+
+.nav__links {
+ list-style: none;
+ margin: auto;
+}
+
+.nav__links li {
+ display: inline-block;
+ padding: 0px 70px;
+}
+
+.nav__links li a {
+ transition: all 0.3s ease 0s;
+ color: #fff;
+}
+
+button {
+ margin-right: 20px;
+ padding: 9px 55px;
+ background-color: rgba(71, 85, 100, 1);
+ border: none;
+ border-radius: 50px;
+ cursor: pointer;
+ transition: all 0.3s ease 0s;
+ font-family: "MainRoboto";
+ font-weight: 400;
+ font-size: 16px;
+ color: #fff;
+}
+
+button:hover{
+ background-color: rgba(0, 136, 169, 0.8);
+}
